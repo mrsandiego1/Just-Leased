@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="David Rudolph - Wellington Real Estate's premier commercial leasing specialist in La Jolla, California. Expert in retail, office, and restaurant space leasing.">
+  <meta name="keywords" content="commercial real estate, La Jolla leasing, retail space, office space, David Rudolph, Wellington Real Estate, commercial property, California real estate">
+  <meta name="author" content="David Rudolph - Wellington Real Estate">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Just Leased - Wellington Real Estate | David Rudolph">
+  <meta property="og:description" content="Expert commercial leasing in La Jolla, CA. 25+ years experience with retail, office, and restaurant properties.">
+  <meta property="og:image" content="https://framerusercontent.com/images/MDcMwOuebVrSOIGg9igaNR3rVz8.jpeg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Just Leased - Wellington Real Estate | David Rudolph">
+  <meta name="twitter:description" content="Expert commercial leasing in La Jolla, CA. 25+ years experience with retail, office, and restaurant properties.">
+  <meta name="twitter:image" content="https://framerusercontent.com/images/MDcMwOuebVrSOIGg9igaNR3rVz8.jpeg">
+
+  <title>Just Leased - 909 Prospect Street | Wellington Real Estate</title>
+  <style>
+    :root {
+      --color-primary: #0e733b;
+      --color-primary-dark: #0a5a2e;
+      --color-primary-darker: #084621;
+      --color-text: #35393c;
+      --color-text-light: #666;
+      --color-text-lighter: #999;
+      --color-white: #ffffff;
+      --color-background: #f9f9f9;
+      --spacing-xs: clamp(0.5rem, 1vw, 0.75rem);
+      --spacing-sm: clamp(0.75rem, 1.5vw, 1rem);
+      --spacing-md: clamp(1rem, 2vw, 1.5rem);
+      --spacing-lg: clamp(1.5rem, 3vw, 2.5rem);
+      --spacing-xl: clamp(2rem, 4vw, 3.75rem);
+      --spacing-2xl: clamp(3rem, 6vw, 5rem);
+      --container-max: 1400px;
+      --container-padding: clamp(1.25rem, 4vw, 3.75rem);
+      --border-radius: 6px;
+      --border-radius-sm: 4px;
+      --border-radius-lg: 8px;
+      --border-radius-xl: 12px;
+      --transition-base: 0.3s ease;
+      --shadow-sm: 0 2px 10px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+      --shadow-lg: 0 10px 40px rgba(0,0,0,0.1);
+      --shadow-button: 0 4px 15px rgba(14,115,59,0.3);
+      --shadow-button-hover: 0 4px 20px rgba(14,115,59,0.5);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    *:focus-visible {
+      outline: 3px solid rgba(14,115,59,0.5);
+      outline-offset: 2px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      background: var(--color-white);
+      color: var(--color-text);
+      line-height: 1.6;
+      min-height: 100vh;
+      font-size: 16px;
+    }
+
+    /* Typography Standards */
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      font-weight: 900;
+      line-height: 1.2;
+      color: var(--color-primary);
+      margin: 0 0 clamp(1rem, 2vw, 1.5rem) 0;
+    }
+
+    h2 {
+      font-size: clamp(1.75rem, 5vw, 3rem);
+      font-weight: 800;
+      line-height: 1.3;
+      color: var(--color-text);
+      margin: 0 0 clamp(0.75rem, 1.5vw, 1rem) 0;
+    }
+
+    h3 {
+      font-size: clamp(1.375rem, 3.5vw, 2rem);
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--color-text);
+      margin: 0 0 clamp(0.5rem, 1vw, 0.75rem) 0;
+    }
+
+    h4 {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--color-text);
+      margin: 0 0 clamp(0.5rem, 1vw, 0.625rem) 0;
+    }
+
+    p {
+      font-size: clamp(1rem, 2vw, 1.063rem);
+      line-height: 1.8;
+      color: var(--color-text);
+      margin: 0 0 clamp(1rem, 2vw, 1.125rem) 0;
+    }
+
+    a {
+      color: var(--color-primary);
+      transition: color var(--transition-base);
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--color-primary-dark);
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    /* Navigation */
+    .nav {
+      background: var(--color-white);
+      padding: clamp(1rem, 2vw, 1.25rem) var(--container-padding);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    .nav-logo {
+      height: clamp(50px, 7vw, 60px);
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-logo img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+      max-width: 100%;
+    }
+
+    .nav-contact {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: var(--color-white);
+      padding: clamp(0.938rem, 2vw, 1.125rem) clamp(2rem, 5vw, 3rem);
+      border-radius: var(--border-radius);
+      font-weight: 700;
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      cursor: pointer;
+      transition: background var(--transition-base), box-shadow var(--transition-base), color var(--transition-base);
+      box-shadow: var(--shadow-button), inset 0 1px 0 rgba(255,255,255,0.2);
+      border: none;
+      text-decoration: none;
+      display: inline-block;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-contact:hover,
+    .nav-contact:focus {
+      background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-darker) 100%);
+      box-shadow: var(--shadow-button-hover), inset 0 1px 0 rgba(255,255,255,0.3);
+      color: var(--color-white);
+      outline: none;
+    }
+
+    /* Hero Section - Full Viewport Image */
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),
+                  url('https://framerusercontent.com/images/MDcMwOuebVrSOIGg9igaNR3rVz8.jpeg') center/cover no-repeat;
+      background-attachment: fixed;
+    }
+
+    .scroll-indicator {
+      position: absolute;
+      bottom: clamp(2rem, 4vh, 3rem);
+      left: 50%;
+      transform: translateX(-50%);
+      color: var(--color-white);
+      font-size: clamp(0.875rem, 1.5vw, 1rem);
+      opacity: 0.8;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+      }
+      40% {
+        transform: translateX(-50%) translateY(-10px);
+      }
+      60% {
+        transform: translateX(-50%) translateY(-5px);
+      }
+    }
+
+    /* Just Leased Announcement Section */
+    .announcement-section {
+      background: linear-gradient(to bottom, #5a5e61 0%, #2a2d2f 100%);
+      padding: clamp(5rem, 10vw, 8rem) var(--container-padding);
+      text-align: center;
+      position: relative;
+    }
+
+    .announcement-content {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      background: linear-gradient(135deg, rgba(255,255,255,0.98) 0%, rgba(248,248,248,0.98) 100%);
+      padding: clamp(3rem, 6vw, 5rem) clamp(2rem, 4vw, 3rem);
+      border-radius: var(--border-radius-xl);
+      box-shadow:
+        0 20px 60px rgba(0,0,0,0.3),
+        0 0 0 1px rgba(14,115,59,0.1),
+        inset 0 1px 0 rgba(255,255,255,0.8),
+        inset 0 20px 40px rgba(0,0,0,0.15);
+      border: 3px solid rgba(14,115,59,0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .announcement-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(14,115,59,0.08), transparent);
+      animation: shimmer 3s infinite;
+    }
+
+    @keyframes shimmer {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 200%;
+      }
+    }
+
+    .announcement-section h1 {
+      font-size: clamp(3.5rem, 12vw, 7rem);
+      color: var(--color-primary);
+      margin-bottom: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 900;
+      letter-spacing: clamp(2px, 0.5vw, 4px);
+      -webkit-text-stroke: 2px black;
+      paint-order: stroke fill;
+      text-shadow: 0 6px 12px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.4);
+      position: relative;
+    }
+
+    .announcement-section h2 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      color: var(--color-text);
+      margin-bottom: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-weight: 800;
+    }
+
+    .announcement-section .subtitle {
+      font-size: clamp(1.375rem, 3.2vw, 1.875rem);
+      color: var(--color-text-light);
+      font-weight: 600;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Success Story Section */
+    .success-story-section {
+      background: var(--color-white);
+      padding: clamp(4rem, 8vw, 6rem) var(--container-padding);
+    }
+
+    .hero-address-card {
+      background: var(--color-white);
+      padding: clamp(2rem, 4vw, 2.5rem);
+      border-radius: var(--border-radius-lg);
+      max-width: min(500px, 90vw);
+      margin: clamp(2rem, 5vh, 2.5rem) auto 0;
+      box-shadow: var(--shadow-lg);
+      text-align: center;
+    }
+
+    .hero-address-card .address-title {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 900;
+      color: var(--color-text);
+      margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+      letter-spacing: 0.5px;
+    }
+
+    .hero-address-card .address-subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      color: var(--color-text);
+      margin-bottom: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 600;
+    }
+
+    .hero-address-card .agent-name {
+      font-size: clamp(1.25rem, 3vw, 1.5rem);
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: clamp(0.25rem, 0.5vw, 0.375rem);
+    }
+
+    .hero-address-card .agent-title {
+      font-size: clamp(0.875rem, 2vw, 1rem);
+      color: var(--color-text-light);
+      margin-bottom: clamp(0.5rem, 1vw, 0.625rem);
+    }
+
+    .hero-address-card .agent-license {
+      font-size: clamp(0.75rem, 1.5vw, 0.813rem);
+      color: var(--color-text-lighter);
+      margin-bottom: clamp(1.25rem, 2.5vw, 1.5rem);
+    }
+
+    .hero-phone-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(0.5rem, 1vw, 0.75rem);
+      background: #0066cc;
+      color: var(--color-white);
+      padding: clamp(1rem, 2.5vw, 1.25rem) clamp(2rem, 5vw, 3rem);
+      border: 3px solid var(--color-primary);
+      border-radius: var(--border-radius);
+      font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+      font-weight: 700;
+      text-decoration: none;
+      transition: all var(--transition-base);
+      box-shadow: 0 4px 15px rgba(0,102,204,0.3);
+      cursor: pointer;
+    }
+
+    .hero-phone-button:hover,
+    .hero-phone-button:focus {
+      background: #0052a3;
+      box-shadow: 0 6px 20px rgba(0,102,204,0.5);
+      transform: translateY(-2px);
+    }
+
+    .hero-phone-button svg {
+      width: clamp(1.25rem, 2.5vw, 1.5rem);
+      height: clamp(1.25rem, 2.5vw, 1.5rem);
+    }
+
+    .success-story-content {
+      background: var(--color-white);
+      padding: clamp(2.5rem, 5vw, 3.5rem);
+      border-radius: var(--border-radius-xl);
+      max-width: var(--container-max);
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2.5rem, 5vw, 4rem);
+      align-items: start;
+    }
+
+    .success-story-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .success-label {
+      font-size: clamp(2rem, 4.5vw, 2.75rem);
+      font-weight: 800;
+      color: var(--color-primary);
+      text-align: center;
+      margin-bottom: clamp(1rem, 2vw, 1.5rem);
+      letter-spacing: 1px;
+    }
+
+    .success-story-content p {
+      font-size: clamp(1rem, 2vw, 1.063rem);
+      color: var(--color-text);
+      margin: clamp(0.938rem, 2vw, 1rem) 0;
+      line-height: 1.8;
+    }
+
+    .hero-map-container {
+      background: var(--color-white);
+      border: 3px solid var(--color-primary);
+      border-radius: var(--border-radius-lg);
+      padding: clamp(1rem, 2vw, 1.5rem);
+      box-shadow: var(--shadow-md);
+    }
+
+    .hero-map-embed {
+      width: 100%;
+      height: clamp(300px, 35vw, 400px);
+      border: none;
+      border-radius: var(--border-radius);
+    }
+
+    .hero-map-address {
+      text-align: center;
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--color-primary);
+      font-weight: 700;
+      margin-top: var(--spacing-md);
+      padding-top: var(--spacing-sm);
+      border-top: 2px solid var(--color-primary);
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: var(--color-white);
+      padding: clamp(0.938rem, 2vw, 1.125rem) clamp(2rem, 5vw, 3rem);
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      border: none;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      margin-top: var(--spacing-md);
+      font-weight: 700;
+      transition: background var(--transition-base), box-shadow var(--transition-base), color var(--transition-base);
+      box-shadow: var(--shadow-button), inset 0 1px 0 rgba(255,255,255,0.2);
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      display: inline-block;
+      letter-spacing: 0.5px;
+      width: auto;
+      font-family: inherit;
+      text-align: center;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-darker) 100%);
+      box-shadow: var(--shadow-button-hover), inset 0 1px 0 rgba(255,255,255,0.3);
+      color: var(--color-white);
+      outline: none;
+    }
+
+    /* Sections */
+    .section {
+      padding: clamp(3rem, 8vw, 5rem) var(--container-padding);
+      max-width: var(--container-max);
+      margin: 0 auto;
+    }
+
+    /* Agent Section */
+    .agent-section {
+      background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+      padding: clamp(4rem, 10vw, 7.5rem) var(--container-padding) clamp(3rem, 8vw, 5rem);
+      max-width: 100%;
+    }
+
+    .agent-container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      background: var(--color-white);
+      border-radius: var(--border-radius-xl);
+      box-shadow: var(--shadow-lg);
+      padding: clamp(3rem, 6vw, 4.5rem);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: clamp(3rem, 6vw, 5rem);
+      align-items: start;
+    }
+
+    .agent-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .agent-photo {
+      width: 100%;
+      max-width: 240px;
+      height: auto;
+      aspect-ratio: 3/4;
+      background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
+      border-radius: var(--border-radius-lg);
+      flex-shrink: 0;
+      box-shadow: var(--shadow-md);
+      margin-bottom: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    .agent-left h2 {
+      font-size: clamp(2rem, 4.5vw, 2.75rem);
+      color: var(--color-primary);
+      margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+      margin-top: 0;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .agent-left .company {
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      color: var(--color-text);
+      font-weight: 600;
+      margin-bottom: clamp(0.5rem, 1vw, 0.625rem);
+      line-height: 1.5;
+    }
+
+    .agent-left .license {
+      font-size: clamp(0.813rem, 1.6vw, 0.875rem);
+      color: var(--color-text-lighter);
+      margin-bottom: clamp(1.5rem, 3vw, 2rem);
+    }
+
+
+    .agent-info .company {
+      font-size: clamp(1.125rem, 2.5vw, 1.25rem);
+      color: var(--color-text);
+      font-weight: 600;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .agent-info .license {
+      font-size: clamp(0.75rem, 1.5vw, 0.813rem);
+      color: var(--color-text-lighter);
+      margin-bottom: clamp(1.25rem, 3vw, 1.563rem);
+    }
+
+    .agent-left .phone {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: var(--color-white);
+      padding: clamp(0.938rem, 2vw, 1.125rem) clamp(2rem, 5vw, 3rem);
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      border: none;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      margin-bottom: clamp(1rem, 2vw, 1.25rem);
+      font-weight: 700;
+      transition: background var(--transition-base), box-shadow var(--transition-base), color var(--transition-base);
+      box-shadow: var(--shadow-button), inset 0 1px 0 rgba(255,255,255,0.2);
+      text-decoration: none;
+      display: inline-block;
+      letter-spacing: 0.5px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .agent-left .phone:hover,
+    .agent-left .phone:focus {
+      background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-darker) 100%);
+      box-shadow: var(--shadow-button-hover), inset 0 1px 0 rgba(255,255,255,0.3);
+      color: var(--color-white);
+      outline: none;
+    }
+
+    .agent-left .email {
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(0.5rem, 1vw, 0.625rem);
+      transition: color var(--transition-base);
+      width: 100%;
+    }
+
+    .agent-left .email:hover,
+    .agent-left .email:focus {
+      color: var(--color-primary-dark);
+    }
+
+    .agent-left .email svg {
+      width: clamp(1.125rem, 2.5vw, 1.375rem);
+      height: clamp(1.125rem, 2.5vw, 1.375rem);
+    }
+
+    .agent-left .vcard {
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(0.5rem, 1vw, 0.625rem);
+      transition: color var(--transition-base);
+      width: 100%;
+      margin-top: clamp(0.5rem, 1vw, 0.75rem);
+    }
+
+    .footer-vcard {
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      color: var(--color-white);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(0.5rem, 1vw, 0.625rem);
+      transition: color var(--transition-base);
+      margin-top: clamp(0.5rem, 1vw, 0.75rem);
+    }
+
+    .agent-left .vcard:hover,
+    .agent-left .vcard:focus {
+      color: var(--color-primary-dark);
+    }
+
+    .footer-vcard:hover,
+    .footer-vcard:focus {
+      color: var(--color-primary);
+    }
+
+    .agent-left .vcard svg,
+    .footer-vcard svg {
+      width: clamp(1.125rem, 2.5vw, 1.375rem);
+      height: clamp(1.125rem, 2.5vw, 1.375rem);
+    }
+
+    .agent-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .agent-since {
+      font-size: clamp(0.938rem, 1.8vw, 1rem);
+      color: var(--color-text-light);
+      font-style: italic;
+      margin-bottom: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 500;
+    }
+
+    .agent-right p {
+      line-height: 1.8;
+      margin: 0 0 clamp(1.25rem, 2.5vw, 1.5rem) 0;
+      font-size: clamp(1rem, 2vw, 1.063rem);
+      color: var(--color-text);
+    }
+
+    .agent-right p:last-child {
+      margin-bottom: 0;
+    }
+
+    .agent-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(1rem, 2vw, 1.5rem);
+      margin-top: clamp(2rem, 4vw, 3rem);
+    }
+
+    .agent-gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .agent-gallery-image {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: linear-gradient(135deg, #e8e8e8 0%, #d0d0d0 100%);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: clamp(0.5rem, 1vw, 0.75rem);
+    }
+
+    .agent-gallery-caption {
+      font-size: clamp(0.813rem, 1.6vw, 0.875rem);
+      color: var(--color-text-lighter);
+      font-style: italic;
+      text-align: center;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: var(--color-primary);
+      text-align: center;
+      margin-bottom: clamp(2.5rem, 5vw, 3.75rem);
+      font-weight: 800;
+      position: relative;
+      padding-bottom: var(--spacing-md);
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: clamp(60px, 10vw, 100px);
+      height: 4px;
+      background: var(--color-primary);
+      border-radius: 2px;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+      gap: clamp(1.25rem, 3vw, 1.875rem);
+      margin-top: var(--spacing-2xl);
+    }
+
+    .cards-grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    }
+
+    .card {
+      background: var(--color-white);
+      border-radius: var(--border-radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: transform var(--transition-base), box-shadow var(--transition-base);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover,
+    .card:focus-within {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+    }
+
+    .cta-card:hover,
+    .cta-card:focus-within {
+      transform: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card-image {
+      height: clamp(180px, 25vw, 200px);
+      background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
+      position: relative;
+    }
+
+    .badge {
+      position: absolute;
+      top: clamp(0.75rem, 2vw, 0.938rem);
+      left: clamp(0.75rem, 2vw, 0.938rem);
+      background: var(--color-primary);
+      color: var(--color-white);
+      padding: clamp(0.5rem, 1.5vw, 0.625rem) clamp(0.938rem, 2.5vw, 1.25rem);
+      font-weight: 700;
+      font-size: clamp(0.813rem, 1.5vw, 0.875rem);
+      border-radius: var(--border-radius-sm);
+      letter-spacing: 1px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .card-content {
+      padding: clamp(1.25rem, 3vw, 1.563rem);
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-content h3 {
+      font-size: clamp(1.063rem, 2vw, 1.125rem);
+      margin-bottom: clamp(0.75rem, 2vw, 0.75rem);
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .card-content p {
+      font-size: clamp(0.938rem, 1.8vw, 0.938rem);
+      color: var(--color-text-light);
+      margin: clamp(0.5rem, 1vw, 0.5rem) 0;
+    }
+
+    /* CTA Card */
+    .cta-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #e8f5e9 0%, #d4edda 100%);
+      text-align: center;
+      padding: clamp(2rem, 5vw, 3.125rem) clamp(1.25rem, 3vw, 1.563rem);
+      border: 3px dashed var(--color-primary);
+      min-height: 100%;
+    }
+
+    .cta-card h3 {
+      color: var(--color-primary);
+      font-size: clamp(1.25rem, 2.5vw, 1.375rem);
+      margin-bottom: clamp(1.25rem, 3vw, 1.563rem);
+      font-weight: 800;
+      line-height: 1.4;
+    }
+
+    /* Form Section */
+    .form-section {
+      background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    }
+
+    .form-intro {
+      text-align: center;
+      margin-bottom: var(--spacing-2xl);
+    }
+
+    .form-intro p {
+      font-size: clamp(1.063rem, 2.2vw, 1.188rem);
+      color: var(--color-text);
+      margin-top: var(--spacing-md);
+    }
+
+    .form-wrapper {
+      max-width: min(700px, 90vw);
+      margin: 0 auto;
+      background: var(--color-white);
+      padding: clamp(2rem, 5vw, 3.125rem);
+      border-radius: var(--border-radius-xl);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .form-group {
+      margin-bottom: clamp(1.25rem, 3vw, 1.563rem);
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: var(--spacing-xs);
+      font-weight: 600;
+      color: var(--color-text);
+      font-size: clamp(0.938rem, 1.8vw, 0.938rem);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: clamp(0.813rem, 2vw, 0.938rem);
+      border: 2px solid #ddd;
+      font-size: clamp(0.938rem, 2vw, 1rem);
+      border-radius: var(--border-radius);
+      font-family: inherit;
+      transition: border-color var(--transition-base), box-shadow var(--transition-base);
+      background: var(--color-white);
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(14,115,59,0.1);
+    }
+
+    .form-group input:invalid,
+    .form-group select:invalid,
+    .form-group textarea:invalid {
+      border-color: #ddd;
+    }
+
+    .form-group input:user-invalid,
+    .form-group select:user-invalid,
+    .form-group textarea:user-invalid {
+      border-color: #dc3545;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+      gap: clamp(1.25rem, 3vw, 1.563rem);
+    }
+
+    .trust-badges {
+      text-align: center;
+      margin-top: clamp(1.25rem, 3vw, 1.563rem);
+      font-size: clamp(0.813rem, 1.5vw, 0.875rem);
+      color: var(--color-text-lighter);
+    }
+
+    /* Footer */
+    .footer {
+      background: linear-gradient(135deg, #4a4e51 0%, #35383a 100%);
+      color: var(--color-white);
+      padding: clamp(4rem, 8vw, 6rem) var(--container-padding);
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: clamp(3rem, 6vw, 5rem);
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    .footer-left {
+      display: flex;
+      gap: clamp(2rem, 4vw, 3rem);
+      align-items: center;
+      flex: 1;
+    }
+
+    .footer-agent-photo {
+      width: clamp(180px, 20vw, 240px);
+      height: auto;
+      aspect-ratio: 3/4;
+      border-radius: var(--border-radius-lg);
+      flex-shrink: 0;
+      object-fit: cover;
+      border: 5px solid var(--color-white);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(0.5rem, 1vw, 0.75rem);
+    }
+
+    .footer-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-logo {
+      width: clamp(180px, 20vw, 240px);
+      height: auto;
+      aspect-ratio: 3/4;
+      background: var(--color-white);
+      border-radius: var(--border-radius-lg);
+      padding: clamp(1.5rem, 3vw, 2rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-lg);
+      border: 5px solid var(--color-white);
+    }
+
+    .footer-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .footer-company-name {
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-weight: 800;
+      margin-bottom: var(--spacing-sm);
+      color: var(--color-white);
+    }
+
+    .footer-info h3 {
+      font-size: clamp(1.75rem, 3.5vw, 2rem);
+      margin-bottom: clamp(0.188rem, 0.35vw, 0.25rem);
+      font-weight: 700;
+      color: var(--color-white);
+    }
+
+    .footer-info p {
+      margin: clamp(0.5rem, 1vw, 0.5rem) 0;
+      color: #e0e0e0;
+      font-size: clamp(0.938rem, 2vw, 1rem);
+    }
+
+    .footer-phone {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: var(--color-white);
+      padding: clamp(0.938rem, 2vw, 1.125rem) clamp(2rem, 5vw, 3rem);
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      font-weight: 700;
+      margin: clamp(0.938rem, 2vw, 1.25rem) 0;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: var(--border-radius);
+      transition: background var(--transition-base), box-shadow var(--transition-base), color var(--transition-base);
+      box-shadow: var(--shadow-button), inset 0 1px 0 rgba(255,255,255,0.2);
+      letter-spacing: 0.5px;
+      text-align: center;
+      max-width: fit-content;
+    }
+
+    .footer-phone:hover,
+    .footer-phone:focus {
+      background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-darker) 100%);
+      box-shadow: var(--shadow-button-hover), inset 0 1px 0 rgba(255,255,255,0.3);
+      color: var(--color-white);
+      outline: none;
+    }
+
+    .footer-email {
+      color: var(--color-white);
+      font-size: clamp(1rem, 2vw, 1.125rem);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(0.5rem, 1vw, 0.625rem);
+      transition: color var(--transition-base);
+    }
+
+    .footer-email:hover,
+    .footer-email:focus {
+      color: var(--color-primary);
+    }
+
+    .footer-email svg {
+      width: clamp(1.125rem, 2.5vw, 1.375rem);
+      height: clamp(1.125rem, 2.5vw, 1.375rem);
+    }
+
+    .footer-tagline {
+      font-style: italic;
+      color: #b8b8b8;
+      font-size: clamp(0.875rem, 1.8vw, 1rem);
+      margin: 0;
+    }
+
+    .footer-license {
+      font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+      color: #999;
+      margin: 0;
+    }
+
+    /* Responsive Design */
+    /* Tablet - 970px and below */
+    @media (max-width: 970px) {
+      .cards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+      }
+
+      .success-story-content {
+        grid-template-columns: 1fr;
+        padding: clamp(2rem, 5vw, 3rem);
+        gap: clamp(2rem, 4vw, 3rem);
+      }
+
+      .hero-map-container {
+        order: 2;
+      }
+
+      .agent-container {
+        grid-template-columns: 1fr;
+        gap: clamp(2.5rem, 5vw, 3.5rem);
+        padding: clamp(2.5rem, 5vw, 3.5rem);
+      }
+
+      .agent-left {
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+      .agent-right {
+        text-align: left;
+      }
+
+      .agent-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: clamp(1.25rem, 2.5vw, 1.75rem);
+      }
+
+      .cards-grid,
+      .cards-grid-3 {
+        grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: clamp(3rem, 6vw, 4rem);
+      }
+
+      .footer-left {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer-right {
+        text-align: center;
+        align-items: center;
+      }
+
+      .footer-agent-photo,
+      .footer-logo {
+        width: clamp(180px, 30vw, 240px);
+        height: auto;
+        aspect-ratio: 3/4;
+      }
+    }
+
+    /* Mobile - 390px and below */
+    @media (max-width: 390px) {
+      .hero {
+        background-attachment: scroll;
+      }
+
+      .nav-inner {
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+        justify-content: center;
+      }
+
+      .announcement-section h1 {
+        -webkit-text-stroke: 2px black;
+      }
+
+      .announcement-content {
+        padding: clamp(2rem, 5vw, 2.5rem) clamp(1.5rem, 4vw, 2rem);
+      }
+
+      .success-story-content {
+        padding: clamp(1.5rem, 4vw, 2rem);
+      }
+
+      .agent-container {
+        padding: clamp(2rem, 4vw, 2.5rem);
+      }
+
+      .agent-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .cards-grid,
+      .cards-grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-agent-photo,
+      .footer-logo {
+        width: clamp(140px, 40vw, 180px);
+        height: auto;
+        aspect-ratio: 3/4;
+      }
+    }
+
+    /* Print Styles */
+    @media print {
+      .nav-contact,
+      .btn-primary,
+      .cta-card,
+      .form-section {
+        display: none;
+      }
+
+      .hero {
+        background-attachment: scroll;
+        page-break-after: avoid;
+      }
+    }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .hero {
+        background-attachment: scroll;
+      }
+
+      .hero h1 {
+        animation: none;
+      }
+    }
+
+    /* High Contrast Mode */
+    @media (prefers-contrast: high) {
+      .hero h1 {
+        -webkit-text-stroke: 5px white;
+      }
+
+      .btn-primary,
+      .nav-contact {
+        border: 2px solid var(--color-white);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img src="https://i.imgur.com/arY8rnb.png" alt="Wellington Real Estate Logo">
+      </div>
+      <a href="#contact-form" class="nav-contact" aria-label="Contact">CONTACT US</a>
+    </div>
+  </nav>
+
+  <!-- Section 1: Full Viewport Hero Image -->
+  <header class="hero" role="banner">
+    <div class="scroll-indicator" aria-label="Scroll down">
+      ↓
+    </div>
+  </header>
+
+  <!-- Section 2: Just Leased Announcement -->
+  <section class="announcement-section">
+    <div class="announcement-content">
+      <h1>JUST LEASED</h1>
+      <h2>909 Prospect Street, La Jolla, CA</h2>
+      <div class="subtitle">2,500 SF Prime Retail Space • Ocean Views • High Foot Traffic</div>
+    </div>
+  </section>
+
+  <!-- Section 3: Success Story Card -->
+  <section class="success-story-section">
+    <article class="success-story-content">
+      <div class="success-story-left">
+        <div class="success-label" role="heading" aria-level="2">SUCCESS STORY</div>
+        <p>This premium retail location in the heart of La Jolla's Golden Triangle sat vacant for over four months. Property owners were frustrated with lack of qualified tenant interest and mounting vacancy costs.</p>
+        <p>David Rudolph immediately implemented an aggressive marketing strategy, leveraging his 25+ years of La Jolla connections. Within three weeks, he secured multiple qualified tenant proposals. Through expert negotiation, the property was leased within 45 days at favorable terms—3% above asking rate with a 5-year lease commitment.</p>
+        <p style="margin-top: clamp(1.25rem, 3vw, 1.563rem); font-weight: 600; color: var(--color-primary);">Do you have an empty retail or commercial space sitting vacant? Don't let your property cost you money every month.</p>
+        <a href="#contact-form" class="btn-primary" aria-label="Get your free consultation">GET YOUR FREE CONSULTATION</a>
+      </div>
+      <div class="hero-map-container">
+        <iframe
+          class="hero-map-embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.7267661516234!2d-117.27498492346925!3d32.84727847362031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c4b0f4c5ab%3A0x3e5c1e3c6b5c5c5c!2s909%20Prospect%20St%2C%20La%20Jolla%2C%20CA%2092037!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map of 909 Prospect Street, La Jolla"
+          aria-label="Google Maps showing location of 909 Prospect Street, La Jolla">
+        </iframe>
+        <div class="hero-map-address">909 PROSPECT ST, LA JOLLA 92037</div>
+      </div>
+    </article>
+  </section>
+
+  <section class="agent-section" aria-labelledby="agent-heading">
+    <div class="agent-container">
+      <div class="agent-left">
+        <div class="agent-photo" role="img" aria-label="David Rudolph headshot"></div>
+        <h2 id="agent-heading">David Rudolph</h2>
+        <p class="company">Wellington Real Estate | La Jolla, California</p>
+        <p class="license">CA DRE LIC. #: 01963588</p>
+        <a href="tel:619-962-9900" class="phone" aria-label="Call David Rudolph">Call: 619-962-9900</a>
+        <a href="mailto:david@wellingtoncre.com" class="email" aria-label="Email David Rudolph">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          david@wellingtoncre.com
+        </a>
+        <a href="david-rudolph.vcf" class="vcard" download aria-label="Download vCard">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+          </svg>
+          Download vCard
+        </a>
+      </div>
+      <div class="agent-right">
+        <p class="agent-since">Serving La Jolla's Premier Properties Since 1999</p>
+        <p><strong>With over 25 years of commercial real estate experience exclusively in La Jolla</strong>, David Rudolph has built an unmatched network of property owners, tenants, developers, and industry professionals. His deep relationships and local expertise mean faster leases and better terms for property owners.</p>
+        <p>David doesn't just list properties—he actively markets them through targeted outreach, leverages his extensive professional relationships, and negotiates aggressively to get deals closed fast. His proven track record speaks for itself: <strong>average time to lease is 60% faster than market average</strong>.</p>
+        <p>Whether you're a property owner frustrated with prolonged vacancy or a business searching for the ideal location, David's deep local expertise, powerful connections, and aggressive deal-making deliver real results. From retail storefronts to Class A office spaces, David has successfully leased hundreds of properties throughout La Jolla and understands exactly what it takes to match the right tenant with the right space.</p>
+        <div class="agent-gallery">
+          <div class="agent-gallery-item">
+            <div class="agent-gallery-image" role="img" aria-label="La Jolla Village"></div>
+            <p class="agent-gallery-caption">La Jolla Village</p>
+          </div>
+          <div class="agent-gallery-item">
+            <div class="agent-gallery-image" role="img" aria-label="Prospect Street"></div>
+            <p class="agent-gallery-caption">Prospect Street</p>
+          </div>
+          <div class="agent-gallery-item">
+            <div class="agent-gallery-image" role="img" aria-label="Coastal Properties"></div>
+            <p class="agent-gallery-caption">Coastal Properties</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--color-white); max-width: 100%; padding-left: var(--container-padding); padding-right: var(--container-padding);" aria-labelledby="leased-properties-heading">
+    <div style="max-width: var(--container-max); margin: 0 auto;">
+      <h2 id="leased-properties-heading" class="section-title">Recently Leased Properties</h2>
+      <p style="text-align: center; font-size: clamp(1rem, 2vw, 1.125rem); color: var(--color-text-light); margin-top: calc(var(--spacing-lg) * -1); margin-bottom: var(--spacing-md);">Proven results for La Jolla property owners</p>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-image" role="img" aria-label="5678 Girard Avenue property image">
+            <span class="badge">LEASED</span>
+          </div>
+          <div class="card-content">
+            <h3>5678 Girard Avenue</h3>
+            <p><strong>Restaurant Space</strong> • 1,800 SF</p>
+            <p>High-end dining location with patio. Leased to established restaurateur at $6.25/SF NNN.</p>
+            <p style="color: var(--color-primary); font-weight: 600; margin-top: clamp(0.75rem, 1.5vw, 0.75rem);">Leased October 2024</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image" role="img" aria-label="910 Prospect Street property image">
+            <span class="badge">LEASED</span>
+          </div>
+          <div class="card-content">
+            <h3>910 Prospect Street</h3>
+            <p><strong>Office Space</strong> • 3,200 SF</p>
+            <p>Class A office with ocean views. Multi-year lease to tech company above asking rate.</p>
+            <p style="color: var(--color-primary); font-weight: 600; margin-top: clamp(0.75rem, 1.5vw, 0.75rem);">Leased September 2024</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image" role="img" aria-label="7750 Fay Avenue property image">
+            <span class="badge">LEASED</span>
+          </div>
+          <div class="card-content">
+            <h3>7750 Fay Avenue</h3>
+            <p><strong>Retail</strong> • 2,100 SF</p>
+            <p>Corner location with exceptional visibility. Leased in just 30 days to luxury boutique.</p>
+            <p style="color: var(--color-primary); font-weight: 600; margin-top: clamp(0.75rem, 1.5vw, 0.75rem);">Leased August 2024</p>
+          </div>
+        </article>
+        <div class="card cta-card">
+          <h3>YOUR PROPERTY COULD BE FEATURED HERE</h3>
+          <a href="#contact-form" class="btn-primary" aria-label="Contact us">CONTACT US</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--color-background); max-width: 100%; padding-left: var(--container-padding); padding-right: var(--container-padding);" aria-labelledby="available-properties-heading">
+    <div style="max-width: var(--container-max); margin: 0 auto;">
+      <h2 id="available-properties-heading" class="section-title">Available For Lease</h2>
+      <p style="text-align: center; font-size: clamp(1rem, 2vw, 1.125rem); color: var(--color-text-light); margin-top: calc(var(--spacing-lg) * -1); margin-bottom: var(--spacing-md);">Looking for space? David can find and negotiate the perfect location for you</p>
+      <div class="cards-grid cards-grid-3">
+        <article class="card">
+          <div class="card-image" role="img" aria-label="1122 Wall Street property image">
+            <span class="badge">FOR LEASE</span>
+          </div>
+          <div class="card-content">
+            <h3>1122 Wall Street</h3>
+            <p><strong>Office Space</strong> • 4,500 SF</p>
+            <p>Modern build-out, private offices, conference rooms. Excellent parking. Available immediately.</p>
+            <p style="color: var(--color-primary); font-weight: 700; margin-top: clamp(0.75rem, 1.5vw, 0.75rem); font-size: clamp(0.938rem, 2vw, 1rem);">Call for Details</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image" role="img" aria-label="8888 La Jolla Boulevard property image">
+            <span class="badge">FOR LEASE</span>
+          </div>
+          <div class="card-content">
+            <h3>8888 La Jolla Boulevard</h3>
+            <p><strong>Retail</strong> • 1,600 SF</p>
+            <p>High-traffic location with street frontage. Perfect for boutique, gallery, or professional services.</p>
+            <p style="color: var(--color-primary); font-weight: 700; margin-top: clamp(0.75rem, 1.5vw, 0.75rem); font-size: clamp(0.938rem, 2vw, 1rem);">$4.50/SF NNN</p>
+          </div>
+        </article>
+        <div class="card cta-card">
+          <h3>LOOKING FOR THE PERFECT SPACE?</h3>
+          <p style="font-size: clamp(0.938rem, 1.8vw, 0.938rem); color: var(--color-text); margin: var(--spacing-md) 0;">Let us find and negotiate the best deal for your business</p>
+          <a href="#contact-form" class="btn-primary" aria-label="Let us help you find space">LET US HELP</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-form" class="section form-section" style="max-width: 100%; padding-left: var(--container-padding); padding-right: var(--container-padding);" aria-labelledby="contact-form-heading">
+    <div style="max-width: var(--container-max); margin: 0 auto;">
+      <div class="form-intro">
+        <h2 id="contact-form-heading" class="section-title">Get Your Property Leased</h2>
+        <p>Free Consultation • David will personally review your property and provide a custom leasing strategy</p>
+      </div>
+      <form class="form-wrapper" action="#" method="post" novalidate aria-label="Property consultation form">
+        <div class="form-group">
+          <label for="full-name">Full Name <span aria-label="required">*</span></label>
+          <input type="text" id="full-name" name="full-name" placeholder="John Smith" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address <span aria-label="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number <span aria-label="required">*</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="(619) 555-1234" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="address">Property Address</label>
+          <input type="text" id="address" name="address" placeholder="1234 Main Street, La Jolla, CA">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="property-type">Property Type</label>
+            <select id="property-type" name="property-type">
+              <option value="">Select Type</option>
+              <option value="retail">Retail</option>
+              <option value="office">Office</option>
+              <option value="restaurant">Restaurant</option>
+              <option value="industrial">Industrial</option>
+              <option value="mixed-use">Mixed Use</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="square-footage">Square Footage</label>
+            <input type="text" id="square-footage" name="square-footage" placeholder="2,500">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="status">Current Status</label>
+          <select id="status" name="status">
+            <option value="">Select Status</option>
+            <option value="vacant">Currently Vacant</option>
+            <option value="expiring">Occupied - Lease Expiring Soon</option>
+            <option value="coming-available">Coming Available</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message / Additional Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your property and leasing goals..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%;" aria-label="Submit consultation request">GET MY FREE CONSULTATION</button>
+        <div class="trust-badges" role="contentinfo">
+          ✓ No Obligation • ✓ Confidential • ✓ 24-Hour Response Guarantee
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="https://framerusercontent.com/images/ElsoFpvRFvdws5WHjlNhvnICbU.png?width=1024&height=1536" alt="David Rudolph" class="footer-agent-photo">
+        <div class="footer-info">
+          <h3>David Rudolph</h3>
+          <p>Commercial Leasing Specialist • La Jolla, California</p>
+          <a href="tel:619-962-9900" class="footer-phone" aria-label="Call David Rudolph">Call: 619-962-9900</a>
+          <a href="mailto:david@wellingtoncre.com" class="footer-email" aria-label="Email David Rudolph">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            david@wellingtoncre.com
+          </a>
+          <a href="david-rudolph.vcf" class="footer-vcard" download aria-label="Download vCard">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            </svg>
+            Download vCard
+          </a>
+          <p class="footer-tagline">Serving La Jolla's commercial real estate needs for over 25 years</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-logo">
+          <img src="https://framerusercontent.com/images/Hqzj5k5N3ipzdVANhecjICbL0MI.png?width=500&height=333" alt="Wellington Real Estate Logo">
+        </div>
+        <p class="footer-license">CA DRE LIC. #: 01963588</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
